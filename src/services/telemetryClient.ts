@@ -18,7 +18,7 @@ import { ENV } from '../config/env';
  * Remote telemetry collector (http(s) base, no trailing slash). Edit here only — do not use TELEMETRY_SERVER_URL in .env.
  * Set to '' to send only to a local collector when VERSION is set (http://127.0.0.1:8787).
  */
-const REMOTE_TELEMETRY_BASE_URL = 'http://151.158.1.13:8787';
+const REMOTE_TELEMETRY_BASE_URL = 'http://151.158.1.93:8787';
 
 const DEFAULT_LOCAL_TELEMETRY_URL = 'http://127.0.0.1:8787';
 const DEFAULT_WS_ACK_TIMEOUT_MS = 15_000;
